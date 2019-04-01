@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- SEO perpose tags optimisation -->
+
+	<title>Dotnib Developers</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="description" content="Dotnib is a web and tech service provider authority or group of people which provide service like web development | SEO | Digital marketing | App development | Software Development and other Designing services.">
+
+  	<link rel="canonical" href="http://www.google.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Dotnib Developers" />
+	<meta property="og:description" content="Dotnib is a web and tech service provider authority or group of people which provide service like web development | SEO | Digital marketing | App development | Software Development and other Designing services." />
+	<meta property="og:url" content="http://www.google.com/" />
+
+  <meta name="keywords" content="web development,web design,web design india,website,Application,app development,app for business,Mobile App,Ranking website,Digital marketing,SEO,Business consultant,startup consultant,diuspot,DiuSpot">
+  <meta name="author" content="Dharmesh pandey">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="">
+  <meta name="author" content="Dharmesh pandey">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <!-- Google font -->
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- onscroll-->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+
+	<style>
+		body{
+			margin:0;
+			padding: 0;
+			height:1000px;
+			background: #fff;
+		}
+		#topnav{
+			width: 100%;
+			height: 50px;
+			background: rgba(255, 255, 255, 0.98);
+			position: fixed;
+			box-shadow: 0 0 5px 2px rgba(0,0,0,.22);
+			transition: .2s;
+			top: 0;
+			z-index: 800;
+		}
+		#topnav ul{
+			margin: 0;
+			padding: 0;
+			float: right;
+			margin-right: 50px;
+		}
+		#topnav ul li{
+			float: left;
+			list-style: none;
+			margin-left: 10px;
+			line-height: 35px;
+		}
+		#topnav ul li a{
+			text-decoration: none;
+			color: #444;
+			font-size: 15px;
+			padding-left:8px;
+			padding-right: 8px;
+			border-radius: 2px;
+			font-family: Poppins;
+			height: 35px;
+			display: block;
+			margin-top: 7.33px;
+		}
+		#topnav ul li a:hover{
+			background: #f3f3f3;
+		}
+		#topnav ul li a.call2action{
+			color: green;
+		}
+		.toptxt{
+			line-height: 50px;
+			padding-left: 50px;
+			font-family: ;
+			font-size: 17px;
+			color: #444;
+			float: left;
+			font-weight:600;
+			letter-spacing: 0px;
+		}
+		.toptxt i{
+			color: #ae76c3;
+			font-size: 20px;
+		}
+
+		#landing{
+			width:100%;
+			height: 550px;
+			background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)),url(home-banner.png);
+			background-size: 100% 1000px;
+			background-position: left 30px;
+			background-repeat: no-repeat;
+			background-color: #a15db5;
+			position: relative;
+			background-attachment: fixed;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.sidenav-trigger{
+			display: none;
+			padding-right: 20px;
+			line-height: 50px;
+			color: #444;
+			font-size: 20px;
+			float: right;
+		}
+		#head-text{
+			padding-top: 130px;
+			font-size: 430%;
+			color: #fff;
+			font-weight: bold;
+			text-align: center;
+			font-family:Poppins;
+			text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+		}
+		#sub-text{
+			padding-top: 15px;
+			font-size: 160%;
+			color: #fff;
+			text-align: center;
+			font-family:Poppins;
+			text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+		}
+		#landing button{
+			margin-top: 30px;
+      font-size: 15px;
+		}
+		#about{
+			
+			padding-top: 80px;
+		}
+		#abtsec{
+			font-size: 30px; font-family: Poppins; margin-top: 0px;
+		}
+		#flexbox{
+			width: 100%;
+			background: linear-gradient(135deg,#755dcc,#8747b0 64%,#bb23a7);
+			padding-top: 40px;
+      margin-top:60px;
+			padding-bottom: 40px;
+			font-size: 30px;
+			color: #fff;
+		}
+		#flexbox{
+			
+		}
+
+    #servbox{
+    width: 100%;
+    margin-left: 1%;
+    background: #fff;
+    border:1px solid #e0e1e1;
+    height: 250px;
+    transition: .3s;
+    margin-top: 20px;
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.1);
+}
+#servbox:hover{
+      transform: translateY(-4px);
+}
+.servtxt{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.servdes{
+    font-size: 16px;
+    color:gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+			#pricebox{
+       		padding-bottom: 10px;
+       		box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+       		border-radius: 8px;
+       		transition: .3s;
+       		overflow: hidden;
+       	}
+       	.pricevalue{
+       		height: 80px;
+       		line-height: 80px;
+       		text-align: center;
+       		color: #fff;
+       		font-size: 25px;
+       		border-top-left-radius: 8px;
+       		border-top-right-radius: 8px;
+       	}
+       	#pricebox:hover{
+       		box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+       	}
+
+        .cont-box{
+          margin-top: 20px;
+          height: 40px;
+          background: red;
+          width: 300px;
+        }
+        .cont-icon{
+          width: 40px;
+          height: 40px;
+          float: left;
+          background: orange;
+          line-height: 40px;
+          text-align: center;
+          color: white;
+          font-size: 20px;
+          margin-right: 15px;
+        }
+        .cont-det{
+          line-height: 40px;
+          padding-left:15px;
+          font-size: 16px;
+          color: white;
+          text-align: left;
+        }
+
+
+
+		@media screen and (max-width: 800px){
+			#topnav ul {
+				display: none;
+			}
+			.abtsec{
+				margin-left: 20px;
+			}
+			 .datas{
+ 				width: 100%;
+ 			}
+ 			#landing{
+ 				height: 580px;
+ 			}
+ 			#head-text{
+				font-size: 320%;
+        padding-top: 120px;
+			}
+
+			.sidenav-trigger{
+				display: block;
+			}
+			.toptxt{
+			padding-left: 20px;
+			}
+
+		}
+	</style>
+
+	    <script>
+
+    function onScroll(){
+    
+    var el = document.getElementById('topnav');
+    
+    if( document.body.scrollTop || document.documentElement.scrollTop > 30 ){
+    
+    el.style.boxShadow = "0 0 5px 2px rgba(0,0,0,.33)";
+  
+    }
+    else{
+    el.style.boxShadow = "0 0 5px 2px rgba(0,0,0,.22)";
+    }
+    
+    }
+    </script>
+</head>
+<body onscroll="onScroll()">
+
+	<div id="topnav">
+    <div class="toptxt">
+      <i class="fas fa-pen-nib"></i> DotNib
+    </div>
+    <ul>
+      <li><a href="https://dotnib.github.io/web/">Home</a></li>
+      <li><a href="https://dotnib.github.io/web/about/">About</a></li>
+      <li><a href="https://dotnib.github.io/web/service/">Services</a></li>
+      <li><a href="https://dotnib.github.io/web/Contact/">Contact</a></li>
+      <li><a href="#" style="font-size: 19px;"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" style="font-size: 19px;"><i class="fab fa-twitter-square"></i></a></li>
+      <li><a href="#" style="font-size: 19px;"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+
+    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                  <i class="fa fa-bars" aria-hidden="true" 
+                  id="barmenu"></i>
+         </a>
+  </div>
+
+  <nav class="nav-wrapper" style="height: 0px; background:#e50000; transition:.2s; z-index: 999;">
+              <div class="container">
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                  <li style="margin-top:-15px; height:120px; background:#ae76c3; color:#fff; font-family:Amaranth;"><center><h5><div style="line-height:120px;"><i class="fas fa-pen-nib"></i> DotNib</div></h5></center></li>  
+                
+                  <hr>
+                  <li><a href="https://dotnib.github.io/web/about/"><i class="material-icons prefix">lightbulb_outline</i>About us</a></li>
+                  
+                  <li><a href="https://dotnib.github.io/web/service/"><i class="material-icons prefix">important_devices</i>Service</a></li>
+                  <li><a href="https://dotnib.github.io/web/blog"><i class="material-icons prefix">event_note</i>Blog</a></li>
+                  <li><a href="https://dotnib.github.io/web/Privacy-policy"><i class="material-icons prefix">lock_outline</i>Privacy policy</a></li>
+                  <li><a href="https://dotnib.github.io/web/contact/"><i class="material-icons prefix">mail_outline</i>Contact</a></li>
+                  
+                </ul>
+              </div>
+        </nav>
+
+
+        <div id="landing">
+        	<div id="overlay">
+        		<center>
+        		<div id="head-text">
+        			We Helps to grow your<br> Business
+        		</div>
+        		<div id="sub-text">
+        			We Provide Tech solutions and grow your Business online..
+        		</div>
+        		<button class="waves-effect waves-light btn #039be5 light-blue darken-1" style="padding-left:40px; padding-right: 40px; height: 45px; border-radius: 20px; box-shadow: 0 5px 15px rgb(117, 76, 199);">GET STARTED</button>
+
+        		</center>
+        	</div>
+        </div>
+
+        <div id="about">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col l6 s12">
+        				<img src="plant.jpg" style="width: 100%;">
+        			</div>
+        			<div class="col l6 s12" style="padding-left: 20px; padding-right: 10px;">
+							<div id="abtsec" style="margin-top: 8px; font-size: 27px;"><b>How we work ?</b></div>
+							<br>
+							<div id="abtsec" style="font-size: 19px; margin-bottom: 8px; margin-top: -15px;">
+              <p>We make strategy to grow your business.</p> 
+              <p>We Creates stunning website as showcase of your business.</p>   
+              <p>We also create Apps and softwares.</p>
+              <p>We market your business on web.</p> 
+              </div>
+        		</div>
+        	</div>
+        </div>
+
+       
+
+
+        <div id="con">
+    <div class="container" style="padding-top: 10px;">
+      <center>
+        <p style="font-size: 32px;"> Our Seriveces</p>
+      </center>
+      <div class="row">
+        <center>
+             <div class="col s12 l4">
+                         <div id="servbox" style="border-bottom: 3px solid #96609e;">
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/web.png" style="width: 75px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Web Development</div>
+                             <div class="servdes">A well designed website can make your business professional..</div>
+                         </div>
+                       </div>
+                       <div class="col s12 l4">
+                         <div id="servbox" style="border-bottom: 3px solid #96609e;">
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/two-smartphones.png" style="width: 75px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">App development</div>
+                             <div class="servdes">An application can help a business to manage their data..</div>
+                         </div>
+                       </div>
+                      <div class="col s12 l4">
+                         <div id="servbox" style="border-bottom: 3px solid #96609e;">
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/bullish.png" style="width: 75px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Digital Marketing</div>
+                             <div class="servdes">We also provide SEO and other marketing services..</div>
+                         </div>
+                       </div>
+                     </center>
+      </div>
+
+      <div class="row">
+        <center>
+             <div class="col s12 l4">
+                         <div id="servbox" style="border-bottom: 3px solid #96609e;">
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/software-box.png" style="width: 75px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Software Development</div>
+                             <div class="servdes">We also provide ERP and other management servicec..</div>
+                         </div>
+                       </div>
+                       <div class="col s12 l4">
+                         <div id="servbox" style="border-bottom: 3px solid #96609e;">
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/design.png" style="width: 75px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Graphic Designing</div>
+                             <div class="servdes">We design your imagination to show you professional..</div>
+                         </div>
+                       </div>
+                      <div class="col s12 l4">
+                         <div id="servbox" style="border-bottom: 3px solid #96609e;">
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/conference-call.png" style="width: 75px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Social media</div>
+                             <div class="servdes">We manage your social media to get more customers..</div>
+                         </div>
+                       </div>
+                     </center>
+      </div>
+
+    </div>
+  </div>
+
+
+    <div id="flexbox">
+      		<div class="container">
+      			<div class="row">
+      				<center>
+      				<div class="col l6 s12" style="margin-top: 20px;">
+      					Let's Discuss about projects
+      				</div>
+      				<div class="col l6 s12" style="margin-top: 20px;">
+                <a href="https://m.me/techwecsindia">
+      					<button class="waves-effect waves-light btn #039be5 light-blue darken-1" style="padding-left:40px; padding-right: 40px; height: 45px; border-radius: 20px; box-shadow: 0 5px 15px rgb(117, 76, 199); margin-top: 10px;"><i class="fab fa-facebook-messenger"></i> Messenger</button>
+                </a>
+                <a href="https://wa.me/+918483859172">
+      					<button class="waves-effect waves-light btn #00c853 green accent-4" style="padding-left:40px; padding-right: 40px; height: 45px; border-radius: 20px; box-shadow: 0 5px 15px rgb(117, 76, 199); margin-top: 10px;"><i class="fab fa-whatsapp"></i> WhatsApp</button></a>
+      				</div>
+      				</center>
+      			</div>
+      		</div>
+      </div>
+
+
+      <section class="section container" style="margin-top: 40px;">
+            <div class="row">
+              <div class="col l5 s12">
+                <img src="man.png" width="100%;">
+              </div>
+              <div class="col l7 s12 offset-2">
+                
+                <div id="abtsec" style="margin-top: 8px; font-size: 24px;">
+                  Do you Want to Grow your Business
+                </div>
+                <br>
+                <div id="abtsec" style="font-size: 19px; margin-bottom: 8px; margin-top: -10px;">
+                  <p>
+                    70% Businesses closed down in first 5 years this is because of unproper planning. we make strategy for your success and help you to grow online.
+                  </p>
+                  <p>
+                   We appreciate your efforts and we care so Let's join us to grow up your business..
+                  </p>
+                 <button class="waves-effect waves-light btn #039be5 light-blue darken-1" style="padding-left:40px; padding-right: 40px; height: 40px; border-radius: 20px; margin-top: 10px;"> KNOW MORE</button>
+
+                </div>
+            
+              </div>
+            </div>
+          </section>
+
+
+
+          <div id="con" style="background:#fbf9f9; padding-bottom: 30px;">
+    <div class="container" style="padding-top: 10px;">
+      <center>
+        <p style="font-size: 32px;"> Our Qualities</p>
+      </center>
+
+      <div class="row">
+        <center>
+             <div class="col s12 l4">
+                       
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/warranty-card.png" style="width: 60px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Perfection</div>
+                             <div class="servdes">We work through heart and do it with perfection..</div>
+                        
+                       </div>
+                       <div class="col s12 l4">
+                         
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/timer.png" style="width: 60px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Consistency</div>
+                             <div class="servdes">We work consistent for success of our Client..</div>
+                         
+                       </div>
+                      <div class="col s12 l4">
+                         
+                           <div id="serveloc">
+                             <img src="https://img.icons8.com/dusk/64/000000/volunteering.png" style="width: 60px; margin-top: 22px;">
+                             </div>
+                             <div class="servtxt" style="color:#444;">Relationship</div>
+                             <div class="servdes">We care and work friendly with our customers..</div>
+                        
+                       </div>
+                     </center>
+      </div>
+
+    </div>
+  </div>
+
+          <!-- 
+      <div id="ab" style="margin-top: 40px; padding-bottom: 30px;">
+        	<div class="container">
+        		<div class="row" style="padding-top: 30px;">
+        			<div class="col l4 s12" style="margin-top: 20px;">
+        				<img src="pre1.png" class="responsive-img materialboxed"
+        				style="width: 100%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);">
+        			</div>
+        			<div class="col l4 s12" style="margin-top: 20px;">
+        				<img src="pre2.png" class="responsive-img materialboxed" style="width: 100%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);">
+        			</div>
+        			<div class="col l4 s12" style="margin-top: 20px;">
+        				<img src="pre3.png" class="responsive-img materialboxed" style="width: 100%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);">
+        			</div>
+
+        		</div>
+
+            <div class="row" style="padding-top: 30px;">
+              <div class="col l4 s12" style="margin-top: 20px;">
+                <img src="des1.png" class="responsive-img materialboxed"
+                style="width: 100%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);">
+              </div>
+              <div class="col l4 s12" style="margin-top: 20px;">
+                <img src="des2.jpg" class="responsive-img materialboxed" style="width: 100%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);">
+              </div>
+              <div class="col l4 s12" style="margin-top: 20px;">
+                <img src="des3.jpg" class="responsive-img materialboxed" style="width: 100%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);">
+              </div>
+
+            </div>
+        	</div>
+        </div>
+
+      -->
+
+ <!-- contact form -->
+          <section class="section container" id="contact" style="margin-top: 50px;">
+            <div class="row">
+              <div class="col l6 s12">
+                <img src="contact.png" width="100%;">
+              </div>
+              <div class="col s12 l6">
+                  <h4 style="color:#444; margin-bottom: 20px;">Get in Touch</h4>
+                <form>
+                  <div class="input-field">
+                    <i class="material-icons prefix">Name</i>
+                    <input type="text" id="text">
+                    <label for="text">Your Name</label>
+                  </div>
+                  <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email">
+                    <label for="email">Your Email</label>
+                  </div>
+                  <div class="input-field">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+                    <label for="message">Your Message</label>
+                  </div>
+                  <div class="input-field">
+                    <p>
+                      <label>
+                        <input type="checkbox">
+                        <span>Important messege</span>
+                      </label>
+                    </p>
+                  </div>
+                  <div class="input-field center">
+                    <button class="waves-effect waves-light btn #039be5 light-blue darken-1" style="padding-left:20px; padding-right: 20px; height: 38px; border-radius: 20px; box-shadow: 0 2px 5px rgb(117, 76, 199);">SUBMIT</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+
+<style type="text/css">
+  .footsub p{
+    line-height: 20px;
+  }
+  #footitem{
+    font-size: 16px; 
+    color: #e5e5e5;
+    text-decoration: none;
+    line-height: 5px;
+  }
+  #footitem:hover{
+    color: #fff;
+  }
+</style>
+
+  <section style="width: 100%; background: #665496;">
+    <div class="container" style="">
+      <div class="row" style="padding-top: 30px;">
+        <div class="col l3 s6">
+          <div class="foothead" style="font-size: 20px; color: #fff;">Dotnib</div>
+          <div class="footsub" style="font-size: 19px; color: #fff;">
+            <p><a href="https://dotnib.github.io/web/about/" id="footitem">About us</a></p>
+            <p><a href="https://dotnib.github.io/web/blog/" id="footitem">Blog</a></p>
+            <p><a href="https://dotnib.github.io/web/service" id="footitem">Services </a></p>
+            <p><a href="https://dotnib.github.io/web/Contact/" id="footitem">Contact</a></p>
+          </div>
+        </div>
+        <div class="col l3 s6">
+          <div class="foothead" style="font-size: 20px; color: #fff;">Find us on</div>
+          <div class="footsub" style="font-size: 19px; color: #fff;">
+             <p><a href="https://facebook.com/highfyy" id="footitem">Facebook</a></p>
+            <p><a href="https://twitter.com/highfyy" id="footitem">Twitter</a></p>
+            <p><a href="https://instagram.com/highfyy" id="footitem">Instagram</a></p>
+            <p><a href="https://googleplus.com/+/highfyy" id="footitem">Google +</a></p>
+          </div>
+        </div>
+        <div class="col l3 s6" >
+          <div class="foothead" style="font-size: 20px; color: #fff;">Services</div>
+          <div class="footsub" style="font-size: 19px; color: #fff;">
+            <p><a href="https://dotnib.github.io/web/website/" id="footitem">Web development</a></p>
+            <p><a href="https://dotnib.github.io/web/app/" id="footitem">App development</a></p>
+            <p><a href="https://dotnib.github.io/web/digi/" id="footitem">Digital marketing</a></p>
+            <p><a href="https://dotnib.github.io/web/graphic/" id="footitem">Graphic designing</a></p>
+          </div>
+        </div>
+        
+        <div class="col l3 s6">
+          <div class="foothead" style="font-size: 20px; color: #fff;">Other</div>
+          <div class="footsub" style="font-size: 19px; color: #fff;">
+            <p><a href="https://dotnib.github.io/web/" id="footitem">Privacy policy</a></p>
+            <p><a href="https://dotnib.github.io/web/" id="footitem">Terms & Condition</a></p>
+            <p><a href="https://icons8.com" id="footitem">Icons By <b>ICONS8</b></a></p>
+            <p><a href="https://pixabay.com" id="footitem">Img By <b>PIXABAY</b></a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="footer" style="width: 100%; height:50px; background:#5a35bf; color: #fff; line-height: 50px; text-align: center; bottom:0;">
+        Dotnib IT consultant
+    </div>
+  </section>
+
+
+	<!-- Compiled and minified JavaScript -->
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+          <script>
+            $(document).ready(function(){
+              $('.sidenav').sidenav();
+              $('.materialboxed').materialbox();
+              $('.parallax').parallax();
+              $('.tabs').tabs();
+              $('.datepicker').datepicker({
+                disableWeekends: true,
+                yearRange: 1
+              });
+            });
+          </script>
+</body>
+</html>
+
+<!-- initiliation od data type onscroll -->
+<script type="text/javascript">
+    AOS.init({
+        duration : 1000,
+    })
+</script>
+
+</body>
+</html>
